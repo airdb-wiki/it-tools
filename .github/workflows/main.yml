@@ -29,7 +29,7 @@ jobs:
           run_install: false
 
       - name: Install Dependencies
-        run: pnpm install && pnpm build
+        run: ls -al && pnpm install && pnpm build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
